@@ -1,0 +1,27 @@
+Novel Corona Virus Prediction
+
+Before applying various machine learning models on our data, we need to clean it first. 
+
+First, we parse the observation date format of our dataset. As we interpreted that Province attribute has null values so
+we need to clean this. 
+
+We replace these null values with NA. We implemented the bar plot for the total
+confirmed cases, death cases and recovered to compare their count. 
+
+We plot a line plot for visualizing the trend of how the confirmed cases, death and recoveries change by each passing day.
+Now to implement various machine learning models on our data set we divide our dataset for different
+purposes. 
+
+We allot 92% of data for training the model, 5% for validation and 3 % for testing the model.
+
+We implement linear regression on training dataset and plot scatter plot with training dataset input
+parameters and training output dataset. 
+
+And we plot linear regression line with training input dataset and predicted output. 
+
+We also implement polynomial linear regression on the same dataset and plot the
+scatter plot and try to find the best fit linear regression line by adjusting the degree of polynomial. 
+
+We have also calculated various performance evaluation parameters.
+
+
